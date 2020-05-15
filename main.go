@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	var expression string = ""
+	var expression string
 	fmt.Scan(&expression)
 	fmt.Println(expression)
 	fmt.Println(performCalculation(expression))
